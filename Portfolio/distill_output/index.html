@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+ 
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loukraas</title>
+</head>
+<body>
+    <h1 id="mainTitle">Lukas Peixoto</h1>
+    <div id="mainDiv"><h1>Videos</h1>
+        <div id="videoContainer">
+            <iframe width="560" height="315"
+             src="https://www.youtube.com/embed/bf2SoiqvUvA?si=QsZAK2Ekaa5snqZP" '
+             title="YouTube video player" frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+    <div id="aboutMe">
+           <h1>About Me</h1>
+           <p id="aboutMe">Hi, I'm Lukas Peixoto, video editor, web developer. This portfolio shows some of my work.</p>
+
+           <div id="aboutContainer">
+           <div id="imgContainer">
+           <img id="imgWb"src="/static/img/web.png"></img>
+           <p id="webP">Web Devoloper</p>
+           </div>
+           
+           <div id="imgContainerVideo">
+           <img id="imgVideo"src="/static/img/video.png"></img>
+           <p id="videoP">Video Editor</p>
+           </div>
+           </div>
+        </div>
+        
+        <div id="contact">
+           <h1>Contact</h1>
+           <p id= "contact">If you want to get in touch, feel free to reach out through Discord or WhatsApp.</p>
+           <div class="buttonContainer">
+               <button class="blob-btn" id="discord"onclick="window.open('https://discord.gg/cfqsWYae', '_blank')">
+                   Discord
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+        <br/>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+            <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+          </filter>
+        </defs>
+      </svg>
+      <button id="zap" class="blob-btn" onclick="window.open('https://wa.me/5511954405610', '_blank')">
+                   Whatsapp
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+        <br/>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+            <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+          </filter>
+        </defs>
+      </svg>
+      </div>
+        </div>
+</body>
+</html>
