@@ -23,7 +23,7 @@ div#mainDiv{
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'elegant', sans-serif;
-    height: 1900px;
+    height: 1600px;
 }
 div#videoContainer{
     background-color: rgba(255, 255, 255, 0);
@@ -33,7 +33,42 @@ div#videoContainer{
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'elegant', sans-serif;
-    height: 1050px;
+    height: 400px;
+}
+div#videoContainer2{
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    margin: auto;
+    width: 700px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'elegant', sans-serif;
+    height: 400px;
+}
+div#shorts {
+  display: flex;
+  justify-content: center; /* centraliza os dois blocos */
+  align-items: flex-start; /* alinha pelo topo */
+  gap: 80px; /* espaço entre as divs */
+  margin-top: 30px;
+}
+div#videoContainer3{
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    margin-left:400px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'elegant', sans-serif;
+    height: 400px;
+}
+div#videoContainer4{
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    margin-right:400px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'elegant', sans-serif;
+    height: 400px;
 }
 div#aboutMe{
     border: 7px solid rgb(255, 255, 255);
@@ -86,7 +121,7 @@ div#contact{
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'elegant', sans-serif;
-    height: 300px;
+    height: 400px;
 }
 
 .buttonContainer {
@@ -100,7 +135,7 @@ p#aboutMe{
     font-size: 40px;
 }
 p#contact{
-    font-size: 25px;
+    font-size: 40px;
 }
 field {
   position: relative;
